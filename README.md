@@ -1,2 +1,0 @@
-# nvApp
-Created with CodeSandbox
