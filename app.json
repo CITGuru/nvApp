@@ -9,6 +9,6 @@
     }
   ],
   "scripts": {
-    "postdeploy": "npm install && npm run build"
+    "postdeploy": "npm install -g @vue/cli-service && npm install && npm run build"
   }
 }
