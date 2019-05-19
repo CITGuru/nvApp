@@ -1,0 +1,15 @@
+{
+  "name": "vapp",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static.git"
+    }
+  ],
+  "scripts": {
+    "postdeploy": "npm run build",
+    "heroku-postbuild": "npm run build"
+  }
+}
