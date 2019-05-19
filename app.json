@@ -7,8 +7,5 @@
     {
       "url": "https://github.com/heroku/heroku-buildpack-static.git"
     }
-  ],
-  "scripts": {
-    "postdeploy": "npm install -g @vue/cli-service && npm install && npm run build"
-  }
+  ]
 }
