@@ -9,7 +9,6 @@
     }
   ],
   "scripts": {
-    "postdeploy": "npm install -g @vue/cli-service && npm run build",
-    "heroku-postbuild": "npm run build"
+    "postdeploy": "npm install -g @vue/cli-service && npm run build"
   }
 }
